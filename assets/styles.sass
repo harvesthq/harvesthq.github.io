@@ -1,20 +1,18 @@
 @import "reset"
 
-$ff-helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif
-$ff-trade-bold: "Trade Gothic Bold", "Helvetica Neue", Helvetica, Arial, sans-serif
+$ff-muoto: "Muoto VAR", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif
 
-@import url("http://fast.fonts.com/t/1.css?apiType=css&projectid=00e393ce-878b-4c78-9179-b02ce0c10500")
 @font-face
-  font-family: "Trade Gothic Bold"
-  src: url("tradegothic/2e9af08f-0faf-45e3-9767-78a700434af3.eot?#iefix")
-  src: url("tradegothic/2e9af08f-0faf-45e3-9767-78a700434af3.eot?#iefix") format("eot"), url("tradegothic/f51d24dd-8256-43c6-ba1a-6aeae9d3f262.woff") format("woff"), url("tradegothic/955ee494-66b2-4eb2-8f19-bc3a088df16d.ttf") format("truetype"), url("tradegothic/d5153ad4-7c93-4757-9147-640e69ec4801.svg#d5153ad4-7c93-4757-9147-640e69ec4801") format("svg")
+  font-family: "Muoto VAR"
+  src: url("muoto/MuotoVAR.woff2") format("woff2-variations"), url("muoto/MuotoVAR.woff2") format("woff2")
   font-style: normal
-  font-weight: bold
+  font-weight: 100 900
+  font-display: swap
 
 body
   background: url("blueprint.gif") repeat center top
   color: #dfebf4
-  font-family: $ff-helvetica
+  font-family: $ff-muoto
   font-size: 14px
   line-height: 20px
   -webkit-font-smoothing: antialiased
@@ -31,7 +29,7 @@ h1
   line-height: 50px
   margin-bottom: 13px
   > a
-    font-family: $ff-trade-bold
+    font-family: $ff-muoto
     font-size: 38px
     font-weight: bold
     letter-spacing: 2px
